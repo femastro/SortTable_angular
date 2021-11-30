@@ -1,40 +1,42 @@
-
-<table id="table" class="table table-primary">
-  <thead>
-    <tr>
-      <th style="cursor:pointer" scope="col" (click)="sorTable(0,'str')">#</th>
-      <th style="cursor:pointer" scope="col" (click)="sorTable(1,'str')">Name</th>
-      <th style="cursor:pointer" scope="col" (click)="sorTable(2,'str')">Lastname</th>
-      <th style="cursor:pointer" scope="col" (click)="sorTable(3,'str')">Age</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>luck</td>
-      <td>skywker</td>
-      <td>30</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>obi wan</td>
-      <td>kenovi</td>
-      <td>70</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Fernando</td>
-      <td>Mastro</td>
-      <td>50</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Juan</td>
-      <td>Perez</td>
-      <td>23</td>
-    </tr>
-    </tbody>
-</table>
-
-
+<div class="container">
+  <div class="row mt-5">
+    <table id="table" class="table table-primary">
+      <thead>
+        <tr>
+          <th style="cursor:pointer" scope="col" (click)="sorTable(0,'str')">#</th>
+          <th style="cursor:pointer" scope="col" (click)="sorTable(1,'str')">Name</th>
+          <th style="cursor:pointer" scope="col" (click)="sorTable(2,'str')">Lastname</th>
+          <th style="cursor:pointer" scope="col" (click)="sorTable(3,'str')">Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>luck</td>
+          <td>skywker</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>obi wan</td>
+          <td>kenovi</td>
+          <td>70</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Fernando</td>
+          <td>Mastro</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Juan</td>
+          <td>Perez</td>
+          <td>23</td>
+        </tr>
+        </tbody>
+    </table>
+    
+  </div>
+</div>
 <router-outlet></router-outlet>
