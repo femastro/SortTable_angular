@@ -26,7 +26,6 @@ export class AppComponent {
 		    switching = false;
 		    rows = table.rows;
 
-        console.log(rows[1]);
 		    /*Loop through all table rows (except the first, which contains table headers):*/
 		    for (i = 1; i < (rows.length - 1); i++) {
 			      //start by saying there should be no switching:
@@ -34,8 +33,6 @@ export class AppComponent {
 			      /*Get the two elements you want to compare, one from current row and one from the next:*/
 		        x = rows[i].getElementsByTagName("td")[n];
 		        y = rows[i + 1].getElementsByTagName("td")[n];
-
-            console.log(x , " <=> ", y)
 
   		      /*check if the two rows should switch place, based on the direction, asc or desc:*/
 		        if (dir == "asc") {
