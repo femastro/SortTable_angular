@@ -1,11 +1,11 @@
 
-<table id="table">
+<table id="table" class="table table-primary">
   <thead>
     <tr>
-      <th (click)="sorTable(0,'str')">id</th>
-      <th (click)="sorTable(1,'str')">name</th>
-      <th (click)="sorTable(2,'str')">lastname</th>
-      <th (click)="sorTable(3,'str')">age</th>
+      <th style="cursor:pointer" scope="col" (click)="sorTable(0,'str')">#</th>
+      <th style="cursor:pointer" scope="col" (click)="sorTable(1,'str')">Name</th>
+      <th style="cursor:pointer" scope="col" (click)="sorTable(2,'str')">Lastname</th>
+      <th style="cursor:pointer" scope="col" (click)="sorTable(3,'str')">Age</th>
     </tr>
   </thead>
   <tbody>
